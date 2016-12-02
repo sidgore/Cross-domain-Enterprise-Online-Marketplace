@@ -27,12 +27,9 @@
 			<h2>USER SIGN UP</h2>
 		</div>
 		<div class="row">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-			
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
 	
-   
-  
       <?php
          if(isset($_POST['add'])) {
             $dbhost = 'localhost' ;
@@ -62,7 +59,8 @@
             
             echo "<center><h4>User created successfully</center></h4>\n";
 
-            
+
+            header( "refresh:5; url=login.php" );
             
             
             mysql_close($conn);
@@ -83,7 +81,7 @@
    		 	<input type="password" class="form-control" id="pass" name="pass">
   			</div>
   			<center><input name = "add" type = "submit" id = "add" 
-                              value = "Add User" class="btn btn-success"></center>
+                              value = "Sign up" class="btn btn-success"></center>
 
                </form>
             
