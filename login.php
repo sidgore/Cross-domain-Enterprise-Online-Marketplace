@@ -64,27 +64,38 @@
       
    </head>
    
-   <body bgcolor = "#FFFFFF">
+   <body>
 	
-      <div align = "center">
-         <div style = "width:300px; border: solid 1px #333333; " align = "left">
-            <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Login</b></div>
-				
-            <div style = "margin:30px">
-               
-               <form action = "" method = "post">
-                  <label>UserName  :</label><input type = "text" name = "username" class = "box"/><br /><br />
-                  <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
-                  <input type = "submit" value = " Submit "/><br />
-               </form>
-               
-             
-					
-            </div>
-				
-         </div>
-			
+     <div class="jumbotron">
+      
+<div class="container">
+   <section>
+      <div class="page-header text-center" id="about">
+         <h2>USER LOG IN</h2>
       </div>
+      <div class="row">
+         <div class="col-lg-4"></div>
+         <div class="col-lg-4">
+               
+               <form action = "" method = "post">     
+         <div class="form-group">
+         <label for="first_name">Username:</label>
+         <input type="text" class="form-control" id="username" name="username">
+         </div>
+         <div class="form-group">
+         <label for="address">Password:</label>
+            <input type="password" class="form-control" id="password" name="password">
+         </div>
+         <center><input name = "add" type = "submit" id = "add" 
+                              value = "Log in" class="btn btn-success"></center>
+               </form>
+                        
+         
+      </div>
+      <div class="col-lg-4"></div>
+   </section>
+   </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
