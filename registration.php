@@ -57,7 +57,7 @@
                die('Could not enter data: ' . mysql_error());
             }
             
-            echo "<center><h4>User created successfully</center></h4>\n";
+            echo "<center><h4>User created successfully, now you will be redirected to the login page</center></h4>\n";
 
 
             header( "refresh:5; url=login.php" );
@@ -88,7 +88,8 @@
             <?php
          }
       ?>
-   
+     <br/><center>
+     <a href="login.php">Already a memeber? Login here</a>     
 
 			
 		</div>
