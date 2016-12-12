@@ -89,7 +89,8 @@
          <center><input name = "add" type = "submit" id = "add" 
                               value = "Log in" class="btn btn-success"></center>
                </form>
-                        
+         <br><center>
+         <a href="registration.php">New member? Register here</a>               
          
       </div>
       <div class="col-lg-4"></div>

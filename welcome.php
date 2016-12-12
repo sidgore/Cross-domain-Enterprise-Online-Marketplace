@@ -1,3 +1,4 @@
+
 <?php
    include('session.php');
 ?>
@@ -10,11 +11,7 @@
    
 </html>
 <!DOCTYPE HTML>
-<!--
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Online Marketplace</title>
@@ -25,6 +22,14 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -52,6 +57,7 @@
 				<div id="features-wrapper">
 					<section id="features" class="container">
 						<header>
+						  <a href="mostproducts.php">Most visited products</a>
 							<h2>Gentlemen, behold! This is <strong>Our Market Place</strong>!</h2>
 						</header>
 						<div class="row">
@@ -59,15 +65,13 @@
 
 								<!-- Feature -->
 									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										<a href="http://sidtoursandtravels.com" class="image featured"><img src="sidtours.jpg" alt="" /></a>
 										<header>
 											<h3>SIDTOURSANDTRAVELS</h3>
 										</header>
-										<p>This is <strong>Strongly Typed</strong>, a free, fully responsive site template
-										by <a href="http://html5up.net">HTML5 UP</a>. Free for personal and commercial use under the
-										<a href="http://html5up.net/license">CCA 3.0 license</a>.</p>
+										<p>Place for attractive tourist packages</p>
 										<ul class="actions">
-											<li><a href="#" class="button icon fa-file">SHOP HERE</a></li>
+											<li><a href="sidproducts.php" class="button icon fa-file">SHOP HERE</a></li>
 										</ul>
 									</section>
 
@@ -76,32 +80,29 @@
 
 								<!-- Feature -->
 									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="http://yadacomp.com" class="image featured"><img src="yadaco.jpg" alt="" /></a>
 										<header>
 											<h3>YADACOMP</h3>
 										</header>
-										<p><a href="http://html5up.net">HTML5 UP</a> is a side project of <a href="http://twitter.com/ajlkn">AJ’s</a> (= me).
-										I started it as a way to both test my <strong>skel</strong> framework and sharpen up my coding
-										and design skills a bit.</p>
+										<p>Cool Data Analytics tools for you</p>
 										<ul class="actions">
 											<li><a href="products.php" class="button icon fa-file">SHOP HERE</a></li>
 										</ul>
 									</section>
 
 							</div>
-							<div class="4u 12u(mobile)">
+								<div class="4u 12u(mobile)">
 
+							
 								<!-- Feature -->
 									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="http://formationfourfourtwo.com" class="image featured"><img src="formfour.jpg" alt="" /></a>
 										<header>
 											<h3>FORMATIONFOURFOURTWO</h3>
 										</header>
-										<p><strong>Skel</strong> is a lightweight framework for building responsive
-										sites and apps. All of my stuff at <a href="http://html5up.net">HTML5 UP</a> (including this
-										one) are built on this framework.</p>
+										<p>For all your football needs.</p>
 										<ul class="actions">
-											<li><a href="#" class="button icon fa-file">SHOP HERE</a></li>
+											<li><a href="formationproducts.php" class="button icon fa-file">SHOP HERE</a></li>
 										</ul>
 									</section>
 
@@ -114,10 +115,7 @@
 			<!-- Banner -->
 				<div id="banner-wrapper">
 					<div class="inner">
-						<section id="banner" class="container">
-							<p>Use this space for <strong>profound thoughts</strong>.<br />
-							Or an enormous ad. Whatever.</p>
-						</section>
+						<div class="fb-page" data-href="https://www.facebook.com/Marketplace-Yada-Sid-tours-and-fourfourtwo-648193578680148/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Marketplace-Yada-Sid-tours-and-fourfourtwo-648193578680148/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Marketplace-Yada-Sid-tours-and-fourfourtwo-648193578680148/">Marketplace Yada, Sid tours and fourfourtwo</a></blockquote></div>
 					</div>
 				</div>
 		</div>
